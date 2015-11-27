@@ -4,7 +4,7 @@ $text = $_POST["text"];
 
 echo json_encode(
 	array(
-		'text' => $text."テキスト",
+		'text' => "テキスト".$text."テキスト",
 		'username' => $username,
 		'icon_url' => $icon_url
 	)
