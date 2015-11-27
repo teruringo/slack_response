@@ -10,7 +10,8 @@ if ($str[1] == "wiki") {
 	$text = "いまはwikiとggrしかないようです・・・　「ぱぱぱ　wiki ほにゃらら」「ぱぱぱ　ggr　ほにゃらら」	と入力くださいな";
 }
 
-
+$username = "ぱぱぱ";
+$icon_url = "http://www.rixar-project.com/assets/snippets/rixar_generator/papapa.png";
 //Slackに返す
 echo json_encode(
 	array(
